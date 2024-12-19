@@ -6,7 +6,7 @@ class DBConnection {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/finalprojectdatabase";
         String username = "root";
-        String password = "Ramilarajerzha101204";
+        String password = "INSERTPASSWORDHERE";
 
         try (Connection connection = DriverManager.getConnection(url, username, password)) {
             Bakery.menu(connection);
